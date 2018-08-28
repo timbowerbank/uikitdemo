@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{% include topBanner.html %}
+
+<div class="uk-section">
+
+  <div class="uk-container">
+
+    <div uk-grid>
+
+      <div id="leftHandCol" class="uk-width-1-1 uk-width-3-4@s">
+
+        {{ content }}
+
+      </div><!-- end leftHandCol -->
+
+      <div id="rightHandCol" class="uk-width-1-1 uk-width-1-4@s">
+
+         <h3 class="uk-text-center uk-text-right@s rightHandHeader">Further articles</h3>
+
+         <ul class="uk-nav uk-text-center uk-text-right@s secNavLinks">
+
+            {% for item in site.services %}
+              {% if item.featuredArticle == false %}
+                <li><a href="{{ item.url }}">{{ item.titleTag }}</a></li>
+              {% endif %}
+            {% endfor %}
+
+         </ul>
+
+         <!-- featured article -->
+         {% for item in site.services %}
+
+           {% if item.featuredArticle == true %}
+             <div class="sideFeatured uk-text-center uk-text-right@s">
+               <a href="{{ item.url }}"><img class="marginTopLarge" data-src="{{ item.articleThumb }}" width="300" height="400" uk-img></a>
+               <h4 class="">{{ item.articleH1 }}</h4>
+               <p>{{ item.articleSummary }}</p>
+               <a class="uk-button uk-button-primary uk-border-rounded uk-text-capitalize uk-width-1-1" href="{{ item.url }}">Read the article</a>
+             </div>
+           {% endif %}
+
+         {% endfor %}
+
+      </div><!-- end rightHandCol -->
+
+    </div><!-- end of grid -->
+
+  </div>
+
+</div><!-- end of uk-section -->

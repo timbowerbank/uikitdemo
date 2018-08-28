@@ -1,0 +1,11 @@
+- menu_name: About Us
+  menu_url: /01-about.html
+
+- menu_name: Services
+  menu_url: /02-services.html
+
+- menu_name: News
+  menu_url: /03-news.html
+
+- menu_name: Contact Us
+  menu_url: /04-contact-us.html

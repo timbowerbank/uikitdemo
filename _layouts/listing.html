@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include topBanner.html %}
+
+<!-- news listings -->
+<div id="mainNewsListing" class="uk-section">
+
+  <div class="uk-container">
+
+     <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-match uk-text-center listingSummaries" uk-grid>
+       {% for item in site.news reversed %}
+         <div>
+            <div class="uk-card uk-card-default backgroundLightBlue">
+              <div class="uk-card-media-top">
+                <a href="{{ item.url }}"><img data-src="{{ item.articleThumb_image }}" width="300" height="300" uk-img></a>
+              </div>
+              <div class="uk-card-body">
+                <h3>{{ item.articleH1 }}</h3>
+                <p>{{ item.summary }}</p>
+                <a href="{{ item.url }}" class="uk-button uk-button-primary uk-text-capitalize uk-border-rounded">Read the article</a>
+              </div>
+            </div>
+        </div>
+       {% endfor %}
+     </div>
+
+  </div>
+
+</div><!-- end mainNewsListing -->

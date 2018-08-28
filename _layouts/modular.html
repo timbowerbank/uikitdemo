@@ -1,0 +1,298 @@
+---
+layout: default
+---
+
+        <!-- slideshow -->
+        <div id="homeSliderSection" class="uk-section uk-padding-remove-vertical">
+
+              <!-- slidershow contents -->
+              <div uk-slideshow="autoplay: true; min-height: 550; max-height: 600">
+
+               <div class="uk-position-relative uk-visible-toggle uk-light">
+
+                    <ul class="uk-slideshow-items">
+
+                        <li>
+                          <img src="/images/main-slider-kitten-p-1080.jpeg" alt="" uk-cover>
+                          <div class="uk-overlay uk-overlay-primary uk-position-top-right uk-position-large mainCarouselMessage">
+                              <h3 class="uk-margin-remove editable">{{ page.slide1Header }}</h3>
+                              <div></div>
+                              <p class="uk-margin-remove editable">{{ page.slide1Para }}</p>
+                              <a class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded marginTopLarge editable" href="{{ page.button1Link_link }}">Book Kitten Check</a>
+                          </div>
+                        </li>
+
+                        <li>
+                          <img src="/images/main-slider-puppy-p-1080.jpeg" alt="" uk-cover>
+                          <div class="uk-overlay uk-overlay-primary uk-position-top-right uk-position-large mainCarouselMessage">
+                              <h3 class="uk-margin-remove editable">{{ page.slide2Header }}</h3>
+                              <div></div>
+                              <p class="uk-margin-remove editable">{{ page.slide2Para }}</p>
+                              <a class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded marginTopLarge editable" href="{{ page.button2Link_link }}">Book puppy check</a>
+                          </div>
+                        </li>
+
+                        <li>
+                          <img src="/images/main-slider-jack-russel-p-1080.jpeg" alt="" uk-cover>
+                          <div class="uk-overlay uk-overlay-primary uk-position-top-right uk-position-large mainCarouselMessage">
+                              <h3 class="uk-margin-remove editable">{{ page.slide3Header }}</h3>
+                              <div></div>
+                              <p class="uk-margin-remove editable">{{ page.slide3Para }}</p>
+                              <a class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded marginTopLarge editable" href="{{ page.button3Link_link }}">Book Kitten Check</a>
+                          </div>
+                        </li>
+
+                    </ul>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+                    <div class="uk-position-bottom-center uk-position-small">
+                        <ul class="uk-dotnav">
+                            <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+                            <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                            <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div><!-- end uk-slideshow -->
+
+
+        </div><!-- end of homeSliderSection -->
+
+
+        <!-- start mainHomeHeader for home -->
+        <div id="mainHomeHeader" class="uk-section">
+
+          <div id="mainHomeContainer" class="uk-container">
+
+            <div class="uk-child-width-1-1" uk-grid><!-- start grid -->
+               <div id="mainHeaderHome" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+                 <h2 class="uk-text-center fontHeavyWeight fontPrimaryColor">{{ page.mainHeader }}</h2>
+               </div>
+
+               <div>
+                 <p class="uk-text-center">{{ page.mainText }}</p>
+               </div>
+            </div><!-- end grid -->
+
+          </div>
+        </div><!-- end of mainHomeHeader -->
+
+
+        <!-- start moduleHeader -->
+        <div id="moduleHeader" class="uk-section">
+
+          <div id="module1Header" class="uk-container">
+
+            <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
+
+              <div><!-- text -->
+
+                <h3 class="fontPrimaryColor fontHeavyWeight">{{ page.moduleHeader }}</h3>
+                <div class="underlineRuler"></div>
+                <p>{{ page.moduleText }}</p>
+
+              </div>
+              <div><!-- image -->
+               <img data-src="{{ page.moduleImage_image }}" width:"600px" height:"400px" alt="" uk-img>
+
+              </div>
+
+            </div><!-- end grid -->
+
+          </div><!-- end of container -->
+
+        </div><!-- end of moduleHeader -->
+
+        <!-- start servicesBlock -->
+        <div id="servicesBlock" class="uk-section">
+
+          <div id="servicesBlockContainer" class="uk-container">
+
+           <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-collapse uk-text-center" uk-grid>
+
+             <div class="uk-background-primary">
+
+                <img data-src="{{ page.block1SVG_path }}" alt=""  width="200" height="160" uk-img>
+                <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium">{{ page.block1Header }}</h4>
+
+             </div>
+
+             <div class="uk-background-secondary">
+
+              <img data-src="{{ page.block2SVG_path }}" alt=""  width="200" height="160" uk-img>
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium">{{ page.block2Header }}</h4>
+
+             </div>
+
+             <div class="uk-background-muted">
+
+              <img data-src="{{ page.block3SVG_path }}" alt="" width="200" height="160" uk-img>
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium">{{ page.block3Header }}</h4>
+
+             </div>
+
+             <div class="uk-background-primary">
+
+              <img data-src="{{ page.block4SVG_path }}" alt="" width="200" height="160" uk-img>
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium">{{ page.block4Header }}</h4>
+
+             </div>
+
+
+           </div>
+
+          </div><!-- end servicesBlockContainer -->
+
+        </div><!-- end servicesBlock -->
+
+
+
+        <!-- start serviceHeaderAndCards -->
+        <div id="serviceHeaderAndCardsSection" class="uk-section uk-background-muted">
+
+          <div id="serviceHeaderAndCardsContainer" class="uk-container">
+
+            <div uk-grid><!-- start grid -->
+
+               <div class="uk-width-1-1 uk-text-center">
+
+                 <h3 class="fontPrimaryColor fontHeavyWeight">{{ page.servicesHeader }}</h3>
+                 <p>{{ page.servicesPara }}</p>
+
+               </div>
+
+               <div id="firstCardCol" class="uk-width-1-2@s uk-width-1-3@m"><!-- firstCardCol -->
+
+                 <div id="firstCardOuter"><!-- start firstCardOuter -->
+
+                  <div class="uk-card uk-card-default"><!-- start firstCard -->
+
+                       <div class="uk-card-media-top uk-text-center">
+                           <img data-src="{{ page.service1Image_image }}" alt="{{ page.service1Alt }}" width="400" height="400" uk-img>
+                       </div>
+
+                       <div class="uk-card-body">
+                           <h3 class="uk-card-title uk-text-center fontHeavyWeight">{{ page.service1Header }}</h3>
+                           <p>{{ page.service1Desc }}</p>
+                           <div class="uk-text-center">
+                           <a href="{{ page.service1Link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
+                           </div>
+                       </div>
+
+                   </div><!-- end firstCard -->
+
+                 </div><!-- end firstCardOuter -->
+
+               </div><!-- end firstCardCol -->
+
+
+               <div id="secondCardCol" class="uk-width-1-2@s uk-width-1-3@m"><!-- secondCardCol -->
+
+                 <div id="secondCardOuter"><!-- start secondCardOuter -->
+
+                  <div class="uk-card uk-card-default"><!-- start secondCard -->
+
+                       <div class="uk-card-media-top uk-text-center">
+                           <img data-src="{{ page.service2Image_image }}" alt="{{ page.service2Alt }}" width="400" height="400" uk-img>
+                       </div>
+
+                       <div class="uk-card-body">
+                           <h3 class="uk-card-title uk-text-center fontHeavyWeight">{{ page.service2Header }}</h3>
+                           <p>{{ page.service2Desc }}</p>
+                           <div class="uk-text-center">
+                           <a href="{{ page.service2Link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
+                           </div>
+                       </div>
+
+                   </div><!-- end secondCard -->
+
+                 </div><!-- end secondCardOuter -->
+
+               </div><!-- end secondCardCol -->
+
+
+
+               <div id="thirdCardCol" class="uk-width-1-2@s uk-width-1-3@m"><!-- thirdCardCol -->
+
+                 <div id="thirdCardOuter"><!-- start thirdCardOuter -->
+
+                  <div class="uk-card uk-card-default"><!-- start thirdCard -->
+
+                       <div class="uk-card-media-top uk-text-center">
+                           <img data-src="{{ page.service3Image_image }}" alt="{{ page.service3Alt }}" width="400" height="400" uk-img>
+                       </div>
+
+                       <div class="uk-card-body">
+                           <h3 class="uk-card-title uk-text-center fontHeavyWeight">{{ page.service3Header }}</h3>
+                           <p>{{ page.service3Desc }}</p>
+                           <div class="uk-text-center">
+                           <a href="{{ page.service2Link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
+                           </div>
+                       </div>
+
+                   </div><!-- end thirdCard -->
+
+                 </div><!-- end thirdCardOuter -->
+
+               </div><!-- end thirdCardCol -->
+
+
+            </div><!-- end grid -->
+
+          </div><!-- end of serviceHeaderAndCardsContainer -->
+
+        </div><!-- end if serviceHeaderAndCardsSection -->
+
+
+        <!-- start testimonialSection -->
+        <div id="testimonialSection" class="uk-section-large uk-background-cover" style="background-image: url(/images/main-slider1-dark-p-1080.jpeg); ">
+
+         <div id="testimonialContainer" class="uk-container"><!-- start testimonialContainer -->
+
+           <div class="uk-grid-match uk-child-width-1-3@s uk-text-center" uk-grid>
+
+             <div><!-- firstTestimonialCard -->
+
+              <div class="testimonialBackground">
+                  <div class="uk-card uk-card-body">
+                      <h5 class="uk-card-title fontWhite">{{ page.testimonial1Header }}</h5>
+                      <p class="fontWhite">{{ page.testimonial1Para }}</p>
+                      <p class="fontItalic fontWhite">{{ page.testimonial1Name }}</p>
+                  </div>
+              </div>
+
+             </div><!-- end firstTestimonialCard -->
+
+
+             <div><!-- secondTestimonialCard -->
+
+              <div class="testimonialBackground">
+                  <div class="uk-card uk-card-body">
+                      <h5 class="uk-card-title fontWhite">{{ page.testimonial2Header }}</h5>
+                      <p class="fontWhite">{{ page.testimonial2Para }}</p>
+                      <p class="fontItalic fontWhite">{{ page.testimonial2Name }}</p>
+                  </div>
+              </div>
+
+             </div><!-- end secondTestimonialCard -->
+
+
+             <div><!-- thirdTestimonialCard -->
+
+              <div class="testimonialBackground">
+                  <div class="uk-card uk-card-body">
+                      <h5 class="uk-card-title fontWhite">{{ page.testimonial3Header }}</h5>
+                      <p class="fontWhite">{{ page.testimonial3Para }}</p>
+                      <p class="fontItalic fontWhite">{{ page.testimonial3Name }}</p>
+                  </div>
+              </div>
+
+             </div><!-- end thirdTestimonialCard -->
+
+
+           </div><!-- end of grid -->
+
+         </div><!-- end testimonialContainer -->
+
+        </div><!-- end testimonialSection -->

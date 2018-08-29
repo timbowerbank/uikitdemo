@@ -42,9 +42,9 @@ collections:
   news:
     output: true
     permalink: /news/:name.html
-  # services:
-    # output: true
-    # permalink: /services/:name.html
+  services:
+    output: true
+    permalink: /services/:name.html
 
 
 # Build settings

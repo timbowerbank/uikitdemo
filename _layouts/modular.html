@@ -2,7 +2,7 @@
 layout: default
 ---
 
-        <!-- slideshow -->
+<!-- slideshow -->
         <div id="homeSliderSection" class="uk-section uk-padding-remove-vertical">
 
               <!-- slidershow contents -->
@@ -13,7 +13,7 @@ layout: default
                     <ul class="uk-slideshow-items">
 
                         <li>
-                          <img src="/images/main-slider-kitten-p-1080.jpeg" alt="" uk-cover>
+                          <img src="/images/main-slider-kitten-p-1080.jpeg" alt="" uk-cover />
                           <div class="uk-overlay uk-overlay-primary uk-position-top-right uk-position-large mainCarouselMessage">
                               <h3 class="uk-margin-remove editable">{{ page.slide1Header }}</h3>
                               <div></div>
@@ -23,7 +23,7 @@ layout: default
                         </li>
 
                         <li>
-                          <img src="/images/main-slider-puppy-p-1080.jpeg" alt="" uk-cover>
+                          <img src="/images/main-slider-puppy-p-1080.jpeg" alt="" uk-cover />
                           <div class="uk-overlay uk-overlay-primary uk-position-top-right uk-position-large mainCarouselMessage">
                               <h3 class="uk-margin-remove editable">{{ page.slide2Header }}</h3>
                               <div></div>
@@ -33,7 +33,7 @@ layout: default
                         </li>
 
                         <li>
-                          <img src="/images/main-slider-jack-russel-p-1080.jpeg" alt="" uk-cover>
+                          <img src="/images/main-slider-jack-russel-p-1080.jpeg" alt="" uk-cover />
                           <div class="uk-overlay uk-overlay-primary uk-position-top-right uk-position-large mainCarouselMessage">
                               <h3 class="uk-margin-remove editable">{{ page.slide3Header }}</h3>
                               <div></div>
@@ -67,11 +67,15 @@ layout: default
 
             <div class="uk-child-width-1-1" uk-grid><!-- start grid -->
                <div id="mainHeaderHome" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
-                 <h2 class="uk-text-center fontHeavyWeight fontPrimaryColor editable">{{ page.mainHeader }}</h2>
+                 <h2 class="uk-text-center fontHeavyWeight fontPrimaryColor editable">
+                   Welcome to our veterinary practice
+                 </h2>
                </div>
 
                <div>
-                 <p class="uk-text-center editable">{{ page.mainText }}</p>
+                 <p class="uk-text-center editable">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nisi vitae nunc imperdiet imperdiet in quis mauris. Ut a massa a quam gravida dapibus quis id velit. Maecenas neque nisi, lacinia sit amet elementum non, placerat non orci. Quisque viverra pellentesque ex, in dapibus lorem dictum tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur maximus aliquam pharetra. Duis mattis ex ex, eu ornare lacus dapibus sed. Integer egestas nibh ac felis elementum, et facilisis diam mattis. We like to think that we have the best practice in Falmouth.
+                 </p>
                </div>
             </div><!-- end grid -->
 
@@ -88,13 +92,17 @@ layout: default
 
               <div><!-- text -->
 
-                <h3 class="fontPrimaryColor fontHeavyWeight editable">{{ page.moduleHeader }}</h3>
+                <h3 class="fontPrimaryColor fontHeavyWeight editable">
+                  Interesting feature on the cat
+                </h3>
                 <div class="underlineRuler"></div>
-                <p class="editable">{{ page.moduleText }}</p>
+                <p class="editable">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat consectetur tellus. Curabitur eget felis non purus viverra fermentum condimentum commodo elit. Morbi convallis tempor mi vel convallis. Maecenas purus sem, viverra et blandit eget, condimentum id enim. Cras eu efficitur enim. Duis condimentum ligula non neque consequat, sit amet porta felis imperdiet. Curabitur laoreet dui in fringilla varius. Nullam ipsum tellus, ultrices at odio porta, interdum imperdiet velit. You can add extra text to explain what the vet is doing to the cat.
+                </p>
 
               </div>
               <div><!-- image -->
-               <img class="editable" data-src="{{ page.moduleImage_image }}" width:"600px" height:"400px" alt="" uk-img>
+               <img class="editable" data-src="{{ page.moduleImage_image }}" width:"600px" height:"400px" alt="" uk-img />
 
               </div>
 
@@ -113,29 +121,35 @@ layout: default
 
              <div class="uk-background-primary">
 
-                <img class="editable" data-src="{{ page.block1SVG_path }}" alt=""  width="200" height="160" uk-img>
+                <img class="editable" data-src="{{ page.block1SVG_path }}" alt="" width="200" height="160" uk-img />
                 <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">{{ page.block1Header }}</h4>
 
              </div>
 
              <div class="uk-background-secondary">
 
-              <img class="editable" data-src="{{ page.block2SVG_path }}" alt=""  width="200" height="160" uk-img>
-              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">{{ page.block2Header }}</h4>
+              <img class="editable" data-src="/images/icon-second-feature-01.svg" alt="" width="200" height="160" uk-img="" src="https://spindrift-kiwizx-cloudventzx-net.i.proxee.co/images/icon-second-feature-01.svg" />
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">
+                Healthcare Plans
+              </h4>
 
              </div>
 
              <div class="uk-background-muted">
 
-              <img class="editable" data-src="{{ page.block3SVG_path }}" alt="" width="200" height="160" uk-img>
-              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">{{ page.block3Header }}</h4>
+              <img class="editable" data-src="{{ page.block3SVG_path }}" alt="" width="200" height="160" uk-img />
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">
+                Walks for dogs and cats
+              </h4>
 
              </div>
 
              <div class="uk-background-primary">
 
-              <img class="editable" data-src="{{ page.block4SVG_path }}" alt="" width="200" height="160" uk-img>
-              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">{{ page.block4Header }}</h4>
+              <img class="editable" data-src="{{ page.block4SVG_path }}" alt="" width="200" height="160" uk-img />
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">
+                Always a biscuit available
+              </h4>
 
              </div>
 
@@ -157,8 +171,12 @@ layout: default
 
                <div class="uk-width-1-1 uk-text-center">
 
-                 <h3 class="fontPrimaryColor fontHeavyWeight editable">{{ page.servicesHeader }}</h3>
-                 <p class="editable">{{ page.servicesPara }}</p>
+                 <h3 class="fontPrimaryColor fontHeavyWeight editable">
+                   A wide range of services for your pet to keep them healthy...
+                 </h3>
+                 <p class="editable">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. We're proud to announce that we have a great range of vets available to assess your pet's needs.
+                 </p>
 
                </div>
 
@@ -169,14 +187,14 @@ layout: default
                   <div class="uk-card uk-card-default"><!-- start firstCard -->
 
                        <div class="uk-card-media-top uk-text-center">
-                           <img class="editable" data-src="{{ page.service1Image_image }}" alt="{{ page.service1Alt }}" width="400" height="400" uk-img>
+                           <img class="editable" data-src="{{ page.service1Image_image }}" alt="{{ page.service1Alt }}" width="400" height="400" uk-img />
                        </div>
 
                        <div class="uk-card-body">
                            <h3 class="uk-card-title uk-text-center fontHeavyWeight editable">{{ page.service1Header }}</h3>
                            <p class="editable">{{ page.service1Desc }}</p>
                            <div class="uk-text-center">
-                           <a href="{{ page.service1Link_link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
+                           <a href="{{ page.service1Link_link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out mores</a>
                            </div>
                        </div>
 
@@ -194,7 +212,7 @@ layout: default
                   <div class="uk-card uk-card-default"><!-- start secondCard -->
 
                        <div class="uk-card-media-top uk-text-center">
-                           <img class="editable" data-src="{{ page.service2Image_image }}" alt="{{ page.service2Alt }}" width="400" height="400" uk-img>
+                           <img class="editable" data-src="{{ page.service2Image_image }}" alt="{{ page.service2Alt }}" width="400" height="400" uk-img />
                        </div>
 
                        <div class="uk-card-body">
@@ -220,7 +238,7 @@ layout: default
                   <div class="uk-card uk-card-default"><!-- start thirdCard -->
 
                        <div class="uk-card-media-top uk-text-center">
-                           <img class="editable" data-src="{{ page.service3Image_image }}" alt="{{ page.service3Alt }}" width="400" height="400" uk-img>
+                           <img class="editable" data-src="{{ page.service3Image_image }}" alt="{{ page.service3Alt }}" width="400" height="400" uk-img />
                        </div>
 
                        <div class="uk-card-body">
@@ -269,9 +287,15 @@ layout: default
 
               <div class="testimonialBackground">
                   <div class="uk-card uk-card-body">
-                      <h5 class="uk-card-title fontWhite editable">{{ page.testimonial2Header }}</h5>
-                      <p class="fontWhite editable">{{ page.testimonial2Para }}</p>
-                      <p class="fontItalic fontWhite editable">{{ page.testimonial2Name }}</p>
+                      <h5 class="uk-card-title fontWhite editable">
+                        My cat loved it
+                      </h5>
+                      <p class="fontWhite editable">
+                        She purred everytime she went
+                      </p>
+                      <p class="fontItalic fontWhite editable">
+                        Mad about cats person
+                      </p>
                   </div>
               </div>
 
@@ -282,9 +306,15 @@ layout: default
 
               <div class="testimonialBackground">
                   <div class="uk-card uk-card-body">
-                      <h5 class="uk-card-title fontWhite editable">{{ page.testimonial3Header }}</h5>
-                      <p class="fontWhite editable">{{ page.testimonial3Para }}</p>
-                      <p class="fontItalic fontWhite editable">{{ page.testimonial3Name }}</p>
+                      <h5 class="uk-card-title fontWhite editable">
+                        Bella loves your vets
+                      </h5>
+                      <p class="fontWhite editable">
+                        My daughter thinks the vets are great.
+                      </p>
+                      <p class="fontItalic fontWhite editable">
+                        Aunty Mimi
+                      </p>
                   </div>
               </div>
 

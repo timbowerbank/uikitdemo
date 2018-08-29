@@ -67,11 +67,11 @@ layout: default
 
             <div class="uk-child-width-1-1" uk-grid><!-- start grid -->
                <div id="mainHeaderHome" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
-                 <h2 class="uk-text-center fontHeavyWeight fontPrimaryColor">{{ page.mainHeader }}</h2>
+                 <h2 class="uk-text-center fontHeavyWeight fontPrimaryColor editable">{{ page.mainHeader }}</h2>
                </div>
 
                <div>
-                 <p class="uk-text-center">{{ page.mainText }}</p>
+                 <p class="uk-text-center editable">{{ page.mainText }}</p>
                </div>
             </div><!-- end grid -->
 
@@ -88,13 +88,13 @@ layout: default
 
               <div><!-- text -->
 
-                <h3 class="fontPrimaryColor fontHeavyWeight">{{ page.moduleHeader }}</h3>
+                <h3 class="fontPrimaryColor fontHeavyWeight editable">{{ page.moduleHeader }}</h3>
                 <div class="underlineRuler"></div>
-                <p>{{ page.moduleText }}</p>
+                <p class="editable">{{ page.moduleText }}</p>
 
               </div>
               <div><!-- image -->
-               <img data-src="{{ page.moduleImage_image }}" width:"600px" height:"400px" alt="" uk-img>
+               <img class="editable" data-src="{{ page.moduleImage_image }}" width:"600px" height:"400px" alt="" uk-img>
 
               </div>
 
@@ -113,29 +113,29 @@ layout: default
 
              <div class="uk-background-primary">
 
-                <img data-src="{{ page.block1SVG_path }}" alt=""  width="200" height="160" uk-img>
-                <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium">{{ page.block1Header }}</h4>
+                <img class="editable" data-src="{{ page.block1SVG_path }}" alt=""  width="200" height="160" uk-img>
+                <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">{{ page.block1Header }}</h4>
 
              </div>
 
              <div class="uk-background-secondary">
 
-              <img data-src="{{ page.block2SVG_path }}" alt=""  width="200" height="160" uk-img>
-              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium">{{ page.block2Header }}</h4>
+              <img class="editable" data-src="{{ page.block2SVG_path }}" alt=""  width="200" height="160" uk-img>
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">{{ page.block2Header }}</h4>
 
              </div>
 
              <div class="uk-background-muted">
 
-              <img data-src="{{ page.block3SVG_path }}" alt="" width="200" height="160" uk-img>
-              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium">{{ page.block3Header }}</h4>
+              <img class="editable" data-src="{{ page.block3SVG_path }}" alt="" width="200" height="160" uk-img>
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">{{ page.block3Header }}</h4>
 
              </div>
 
              <div class="uk-background-primary">
 
-              <img data-src="{{ page.block4SVG_path }}" alt="" width="200" height="160" uk-img>
-              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium">{{ page.block4Header }}</h4>
+              <img class="editable" data-src="{{ page.block4SVG_path }}" alt="" width="200" height="160" uk-img>
+              <h4 class="fontWhite fontHeavyWeight marginTopSmall paddingBottomMedium editable">{{ page.block4Header }}</h4>
 
              </div>
 
@@ -157,8 +157,8 @@ layout: default
 
                <div class="uk-width-1-1 uk-text-center">
 
-                 <h3 class="fontPrimaryColor fontHeavyWeight">{{ page.servicesHeader }}</h3>
-                 <p>{{ page.servicesPara }}</p>
+                 <h3 class="fontPrimaryColor fontHeavyWeight editable">{{ page.servicesHeader }}</h3>
+                 <p class="editable">{{ page.servicesPara }}</p>
 
                </div>
 
@@ -169,14 +169,14 @@ layout: default
                   <div class="uk-card uk-card-default"><!-- start firstCard -->
 
                        <div class="uk-card-media-top uk-text-center">
-                           <img data-src="{{ page.service1Image_image }}" alt="{{ page.service1Alt }}" width="400" height="400" uk-img>
+                           <img class="editable" data-src="{{ page.service1Image_image }}" alt="{{ page.service1Alt }}" width="400" height="400" uk-img>
                        </div>
 
                        <div class="uk-card-body">
-                           <h3 class="uk-card-title uk-text-center fontHeavyWeight">{{ page.service1Header }}</h3>
-                           <p>{{ page.service1Desc }}</p>
+                           <h3 class="uk-card-title uk-text-center fontHeavyWeight editable">{{ page.service1Header }}</h3>
+                           <p class="editable">{{ page.service1Desc }}</p>
                            <div class="uk-text-center">
-                           <a href="{{ page.service1Link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
+                           <a href="{{ page.service1Link_link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
                            </div>
                        </div>
 
@@ -194,14 +194,14 @@ layout: default
                   <div class="uk-card uk-card-default"><!-- start secondCard -->
 
                        <div class="uk-card-media-top uk-text-center">
-                           <img data-src="{{ page.service2Image_image }}" alt="{{ page.service2Alt }}" width="400" height="400" uk-img>
+                           <img class="editable" data-src="{{ page.service2Image_image }}" alt="{{ page.service2Alt }}" width="400" height="400" uk-img>
                        </div>
 
                        <div class="uk-card-body">
-                           <h3 class="uk-card-title uk-text-center fontHeavyWeight">{{ page.service2Header }}</h3>
-                           <p>{{ page.service2Desc }}</p>
+                           <h3 class="uk-card-title uk-text-center fontHeavyWeight editable">{{ page.service2Header }}</h3>
+                           <p class="editable">{{ page.service2Desc }}</p>
                            <div class="uk-text-center">
-                           <a href="{{ page.service2Link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
+                           <a href="{{ page.service2Link_link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
                            </div>
                        </div>
 
@@ -220,14 +220,14 @@ layout: default
                   <div class="uk-card uk-card-default"><!-- start thirdCard -->
 
                        <div class="uk-card-media-top uk-text-center">
-                           <img data-src="{{ page.service3Image_image }}" alt="{{ page.service3Alt }}" width="400" height="400" uk-img>
+                           <img class="editable" data-src="{{ page.service3Image_image }}" alt="{{ page.service3Alt }}" width="400" height="400" uk-img>
                        </div>
 
                        <div class="uk-card-body">
-                           <h3 class="uk-card-title uk-text-center fontHeavyWeight">{{ page.service3Header }}</h3>
-                           <p>{{ page.service3Desc }}</p>
+                           <h3 class="uk-card-title uk-text-center fontHeavyWeight editable">{{ page.service3Header }}</h3>
+                           <p class="editable">{{ page.service3Desc }}</p>
                            <div class="uk-text-center">
-                           <a href="{{ page.service2Link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
+                           <a href="{{ page.service3Link_link }}" class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded editable">Find out more</a>
                            </div>
                        </div>
 
@@ -256,9 +256,9 @@ layout: default
 
               <div class="testimonialBackground">
                   <div class="uk-card uk-card-body">
-                      <h5 class="uk-card-title fontWhite">{{ page.testimonial1Header }}</h5>
-                      <p class="fontWhite">{{ page.testimonial1Para }}</p>
-                      <p class="fontItalic fontWhite">{{ page.testimonial1Name }}</p>
+                      <h5 class="uk-card-title fontWhite editable">{{ page.testimonial1Header }}</h5>
+                      <p class="fontWhite editable">{{ page.testimonial1Para }}</p>
+                      <p class="fontItalic fontWhite editable">{{ page.testimonial1Name }}</p>
                   </div>
               </div>
 
@@ -269,9 +269,9 @@ layout: default
 
               <div class="testimonialBackground">
                   <div class="uk-card uk-card-body">
-                      <h5 class="uk-card-title fontWhite">{{ page.testimonial2Header }}</h5>
-                      <p class="fontWhite">{{ page.testimonial2Para }}</p>
-                      <p class="fontItalic fontWhite">{{ page.testimonial2Name }}</p>
+                      <h5 class="uk-card-title fontWhite editable">{{ page.testimonial2Header }}</h5>
+                      <p class="fontWhite editable">{{ page.testimonial2Para }}</p>
+                      <p class="fontItalic fontWhite editable">{{ page.testimonial2Name }}</p>
                   </div>
               </div>
 
@@ -282,9 +282,9 @@ layout: default
 
               <div class="testimonialBackground">
                   <div class="uk-card uk-card-body">
-                      <h5 class="uk-card-title fontWhite">{{ page.testimonial3Header }}</h5>
-                      <p class="fontWhite">{{ page.testimonial3Para }}</p>
-                      <p class="fontItalic fontWhite">{{ page.testimonial3Name }}</p>
+                      <h5 class="uk-card-title fontWhite editable">{{ page.testimonial3Header }}</h5>
+                      <p class="fontWhite editable">{{ page.testimonial3Para }}</p>
+                      <p class="fontItalic fontWhite editable">{{ page.testimonial3Name }}</p>
                   </div>
               </div>
 

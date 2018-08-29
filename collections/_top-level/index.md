@@ -57,7 +57,7 @@ service1Desc: >-
   dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
   et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
   posuere.
-service1Link: /services/dental-care
+service1Link_link: /services/dental-care
 service2Image_image: /images/main-team-3.jpg
 service2Alt: vet with horse
 service2Header: Large Animals
@@ -67,7 +67,7 @@ service2Desc: >-
   dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
   et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
   posuere.
-service2Link: /services/kitten-checks
+service2Link_link: /services/kitten-checks
 service3Image_image: /images/main-team-1.jpg
 service3Alt: vet with dog
 service3Header: Caring for your pet
@@ -77,7 +77,7 @@ service3Desc: >-
   dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
   et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
   posuere.
-service3Link: /services/featured-article
+service3Link_link: /services/featured-article
 testimonial1Header: 110% care for my dog
 testimonial1Para: Add some testimonial text
 testimonial1Name: J R Hartley owner of Matilda

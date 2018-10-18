@@ -41,10 +41,16 @@ collections:
 
   news:
     output: true
-    permalink: /news/:name.html
+    permalink: /:collection/:name.html
+
   services:
     output: true
     permalink: /services/:name.html
+
+
+# DEFAULTS
+
+
 
 
 # Build settings

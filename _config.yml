@@ -47,6 +47,9 @@ collections:
     output: true
     permalink: /services/:name.html
 
+  dogs:
+    output: true
+
 
 # DEFAULTS
 

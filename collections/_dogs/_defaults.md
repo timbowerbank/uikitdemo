@@ -1,5 +1,5 @@
 ---
-layout: main
+
 title: 'name of file'
 titleTag: Add your title tag here
 metaDescription: 'Add your meta description here'

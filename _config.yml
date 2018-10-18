@@ -33,7 +33,7 @@ telephone: 01326 317248
 mobile: 07976 361908
 
 # COLLECTIONS
-# collections_dir: collections
+collections_dir: collections
 collections:
   top-level:
     output: true
@@ -49,18 +49,24 @@ collections:
 
   dogs:
     output: true
-    permalink: /dogs/:name.html
+    #permalink: /dogs/:name.html
 
 
 # DEFAULTS
 defaults:
   -
     scope:
-      path: "_dogs/"
+      path: "_dogs"
+      #type: "dogs" # a collection in your site, in plural form
     values:
       layout: "modular"
 
-
+  -
+    scope:
+      path: "_dogs/small"
+      #type: "dogs" # a collection in your site, in plural form
+    values:
+      layout: "main"
 
 # Build settings
 markdown: kramdown

@@ -33,7 +33,7 @@ telephone: 01326 317248
 mobile: 07976 361908
 
 # COLLECTIONS
-collections_dir: collections
+# collections_dir: collections
 collections:
   top-level:
     output: true

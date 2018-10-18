@@ -49,6 +49,7 @@ collections:
 
   dogs:
     output: true
+    permalink: /dogs/:name.html
 
 
 # DEFAULTS

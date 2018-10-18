@@ -60,6 +60,7 @@ defaults:
       #type: "dogs" # a collection in your site, in plural form
     values:
       layout: "modular"
+      permalink: "/services/dogs/"
 
   -
     scope:
@@ -67,6 +68,7 @@ defaults:
       #type: "dogs" # a collection in your site, in plural form
     values:
       layout: "main"
+      permalink: "/services/dogs/small/:name.html"
 
 # Build settings
 markdown: kramdown

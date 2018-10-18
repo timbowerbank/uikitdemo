@@ -1,5 +1,4 @@
 ---
-layout: main
 title: jack-russell
 titleTag: Add your title tag here
 metaDescription: Add your meta description here

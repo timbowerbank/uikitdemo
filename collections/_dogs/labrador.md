@@ -1,6 +1,5 @@
 ---
-
-titleTag: Jekyll Demo Site
+titleTag: All about labradors
 menu: false
 menuName: Home
 slide1Header: A nice heading

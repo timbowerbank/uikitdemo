@@ -57,7 +57,6 @@ defaults:
   -
     scope:
       path: "collections/_dogs/"
-      type: "dogs" # a collection in your site, in plural form
     values:
       layout: "modular"
 

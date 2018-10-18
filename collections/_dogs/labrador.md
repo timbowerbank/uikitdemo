@@ -13,7 +13,7 @@ summary: >-
   at felis condimentum, auctor hendrerit nisi dictum. Nam consequat, quam at
   bibendum porta, nisl ante tempus purus, eu ornare nisi orci a nisi.
   Pellentesque vitae luctus qu...
-permalink: /services/dogs/
+permalink: '/services/dogs/:name.html'
 ---
 
 Add some great content here to ensure that people know all about lab dogs.

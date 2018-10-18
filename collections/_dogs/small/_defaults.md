@@ -1,7 +1,7 @@
 ---
 
 title: 'name of file'
-titleTag: Add your title tag here for the small dog category
+titleTag: Add your title tag here
 metaDescription: 'Add your meta description here'
 articleH1: 'H1 header here please'
 articleDesc: 'Add a nice sub headline'

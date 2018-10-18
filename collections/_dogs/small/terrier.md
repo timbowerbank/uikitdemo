@@ -1,17 +1,13 @@
 ---
-title: labrador
-titleTag: Add your title tag here for the dog's category
-metaDescription: Add your meta description here
-articleH1: H1 header here please
-articleDesc: Add a nice sub headline
-articleThumb_image: /images/main-news-default-thumb.png
-articleThumbAlt: Add an alt text for the image
-summary: >-
-  Add summary text here. Vivamus viverra diam aliquet tortor posuere porta.
-  Quisque iaculis ligula et elit lobortis tincidunt. Suspendisse dignissim diam
-  at felis condimentum, auctor hendrerit nisi dictum. Nam consequat, quam at
-  bibendum porta, nisl ante tempus purus, eu ornare nisi orci a nisi.
-  Pellentesque vitae luctus qu...
+layout: main
+title: 'terrier'
+titleTag: Latest news on terriers
+metaDescription: 'Find out about our new kitten jabs'
+articleH1: 'New kitten jabs'
+articleDesc: 'Protecting your kitten from many diseases'
+articleThumb_image: /images/main-news-kitten.jpg
+articleThumbAlt: 'Image of kitten at the vets'
+summary: Vivamus viverra diam aliquet tortor posuere porta. Quisque iaculis ligula et elit lobortis tincidunt. Suspendisse dignissim diam at felis condimentum, auctor hendrerit nisi dictum. Nam consequat, quam at bibendum porta, nisl ante tempus purus, eu ornare nisi orci a nisi. Pellentesque vitae luctus qu...
 ---
 
 Vivamus viverra diam aliquet tortor posuere porta. Quisque iaculis ligula et elit lobortis tincidunt. Suspendisse dignissim diam at felis condimentum, auctor hendrerit nisi dictum. Nam consequat, quam at bibendum porta, nisl ante tempus purus, eu ornare nisi orci a nisi. Pellentesque vitae luctus quam. Suspendisse congue rhoncus mattis. Curabitur aliquam nibh tempor erat volutpat, ac facilisis risus mollis. Integer sagittis sem ut nisl pellentesque vulputate. Fusce eu leo quis nunc aliquet rhoncus. Vestibulum maximus nisi sit amet arcu ultricies, eget efficitur elit finibus. Nullam felis nibh, congue ac commodo ut, placerat ut turpis. Maecenas nec tincidunt lorem.

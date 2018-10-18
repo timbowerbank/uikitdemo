@@ -60,7 +60,7 @@ defaults:
       #type: "dogs" # a collection in your site, in plural form
     values:
       layout: "modular"
-      permalink: "/services/dogs/"
+      permalink: "/services/dogs/:name.html"
 
   -
     scope:

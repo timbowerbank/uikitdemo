@@ -86,7 +86,6 @@ testimonial2Name: Add another owner
 testimonial3Header: Add another testimonial
 testimonial3Para: Add some testimonial text
 testimonial3Name: Add another owner
-permalink: '/services/dogs/:name.html'
 ---
 
 Add some great content here to ensure that people know all about lab dogs.

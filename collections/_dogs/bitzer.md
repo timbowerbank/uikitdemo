@@ -87,3 +87,5 @@ testimonial3Header: Add another testimonial
 testimonial3Para: Add some testimonial text
 testimonial3Name: Add another owner
 ---
+
+Add some content here about a Bitzer.

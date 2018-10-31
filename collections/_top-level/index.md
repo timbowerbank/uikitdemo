@@ -22,7 +22,7 @@ mainText: >-
   maximus aliquam pharetra. Duis mattis ex ex, eu ornare lacus dapibus sed.
   Integer egestas nibh ac felis elementum, et facilisis diam mattis.
 moduleHeader: Interesting feature
-moduleImage_image: /images/main-home-extra.jpg
+moduleImage_image:
 moduleImageAlt: Image of vet with cat
 template: modular/textimage
 moduleText: >-
@@ -88,3 +88,4 @@ testimonial3Header: Add another testimonial
 testimonial3Para: Add some testimonial text
 testimonial3Name: Add another owner
 ---
+

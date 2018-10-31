@@ -22,7 +22,7 @@ mainText: >-
   maximus aliquam pharetra. Duis mattis ex ex, eu ornare lacus dapibus sed.
   Integer egestas nibh ac felis elementum, et facilisis diam mattis.
 moduleHeader: Interesting feature
-moduleImage_image:
+moduleImage_image: /images/uploads/main-home-extra.jpg
 moduleImageAlt: Image of vet with cat
 template: modular/textimage
 moduleText: >-

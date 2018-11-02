@@ -1,8 +1,8 @@
 ---
 layout: main
 title_tag_and_meta:
-  titleTag: All about kitten jabs and more
-  meta_Description: Find out more about our kitten jabs
+  title_tag: All about kitten jabs and more
+  meta_description: Find out more about our kitten jabs
 title: 'Kitten jabs'
 titleTag: Latest news on kitten jabs
 metaDescription: 'Find out about our new kitten jabs'

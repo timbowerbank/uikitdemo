@@ -1,6 +1,6 @@
 ---
 layout: main
-Search Engine Optimisation:
+Search_Engine_Optimisation:
     Title_Tag: Kitten Jabs
     Meta_Description: 'Find out about kitten jabs'
 title: 'Kitten jabs'

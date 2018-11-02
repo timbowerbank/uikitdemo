@@ -2,7 +2,8 @@
 layout: main
 title_tag_and_meta:
   page_title: All about kitten jabs and more
-  meta_description_description: Find out more about our kitten jabs
+  meta_description: Find out more about our kitten jabs
+  social_media_image: /images/main-news-retriever.jpg
 title: 'Kitten jabs'
 titleTag: Latest news on kitten jabs
 metaDescription: 'Find out about our new kitten jabs'

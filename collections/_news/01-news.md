@@ -1,8 +1,8 @@
 ---
 layout: main
-- Search_Engine_Optimisation:
-  Title_Tag: Kitten Jabs
-  Meta_Description: 'Find out about kitten jabs'
+footer:
+  copyright: Lion Wear Inc.
+  since: 2004
 title: 'Kitten jabs'
 titleTag: Latest news on kitten jabs
 metaDescription: 'Find out about our new kitten jabs'

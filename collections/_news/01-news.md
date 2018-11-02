@@ -7,7 +7,7 @@ meta_data:
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/casestudy-1.jpg
+  social_media_image: /images/uploads/parallax-castle.jpg
 title: Kitten jabs
 titleTag: Latest news on kitten jabs
 metaDescription: Find out about our new kitten jabs

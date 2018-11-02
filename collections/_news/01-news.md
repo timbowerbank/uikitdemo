@@ -1,6 +1,6 @@
 ---
 layout: main
-footer:
+title_tag_and_meta:
   copyright: Lion Wear Inc.
   since: 2004
 title: 'Kitten jabs'
